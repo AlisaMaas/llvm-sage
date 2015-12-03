@@ -319,6 +319,7 @@ Value *SAGEExpr::toValue(IntegerType *Ty, IRBuilder<> &IRB,
   }
 
   assert(false && "Unhandled expression");
+  abort();
 }
 
 void SAGEExpr::operator=(const SAGEExpr& Other) {
